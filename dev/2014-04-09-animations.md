@@ -196,7 +196,7 @@ its opacity. All of these are properties of a Modifier, and Modifiers are built
 to transition between states, just like Transitionables.
 
 ```js
-var rotateModifer = new Modifier({transform : Transform.identity});
+var rotateModifier = new Modifier({transform : Transform.identity});
 rotateModifier.setTransform(Transform.rotateZ(Math.PI), {curve : 'linear', duration : 500});
 
 setTimeout(function(){
@@ -210,7 +210,7 @@ Opacity, origin and size are all properties of Modifiers and can be transitioned
 as well.
 
 ```js
-var modifer = new Modifier({
+var modifier = new Modifier({
     transform : Transform.identity,
     opacity   : 0,
     origin    : [0.5, 0.5],
